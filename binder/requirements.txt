@@ -1,6 +1,7 @@
+numpy
 pandas
-requests
-ipywidgets
 matplotlib
 ipympl
+ipywidgets
+plotly
 mplcursors
