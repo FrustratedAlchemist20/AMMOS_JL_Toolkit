@@ -111,7 +111,21 @@ formula    = fragment formula if available
 In addition, a README log file is generated for each molecule containing
 metadata about the spectra used (instrument, ion mode, collision energy, etc.).
 
-## Run online (no installation)
+## Interactive demo
+
+This repository provides a toolkit for extracting and visualizing MS2 spectra from MassBank.
+
+The toolkit includes:
+
+- MassBank MS2 record extraction
+- Interactive spectrum visualization
+- Peak highlighting and annotation
+- Export to .dat format
+
+### Run online
+
+You can run the notebook without installing anything:
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FrustratedAlchemist20/AMMOS_JL_Toolkit/HEAD?urlpath=lab)
 
 
