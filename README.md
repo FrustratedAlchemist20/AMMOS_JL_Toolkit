@@ -111,6 +111,9 @@ formula    = fragment formula if available
 In addition, a README log file is generated for each molecule containing
 metadata about the spectra used (instrument, ion mode, collision energy, etc.).
 
+## Run online (no installation)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FrustratedAlchemist20/AMMOS_JL_Toolkit/HEAD?urlpath=lab)
+
 
 Notes
 -----
