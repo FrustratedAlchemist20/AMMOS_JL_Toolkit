@@ -65,7 +65,7 @@ Requirements
 
 
 
-Installation (Different options)
+Install dependencies (Different options)
 ------------
 A) Clone the repository:
 
@@ -92,7 +92,7 @@ Usage
 -----
 1. Launch Jupyter Notebook or Jupyter Lab.
 
-2. Open the notebook that contains the MassBank toolkit.
+2. Open the notebook `AMMOS_JL_Toolkit.git`.
 
 3. In the interface:
 
