@@ -25,7 +25,8 @@ spectral peaks dynamically.
 The tool was designed to simplify the preparation and exploration of MS/MS
 spectra for further analysis and computational workflows.
 
-<img width="636" height="383" alt="Captura de pantalla 2026-03-06 003740" src="https://github.com/user-attachments/assets/5323ed97-ab41-41e7-a907-a5978c8b04a5" />
+<img width="773" height="446" alt="AMMOS_interface" src="https://github.com/user-attachments/assets/a577faec-517d-485c-bc72-5207b2159dbc" />
+
 
 
 Main Features
