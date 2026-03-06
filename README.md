@@ -11,33 +11,41 @@ Universidad Autónoma de Madrid (UAM)
 
 Description
 -----------
-This project provides a simple Python/Jupyter tool for retrieving and processing
-MS2 spectra from the MassBank database.
+This project provides a Python/Jupyter-based toolkit for retrieving, processing,
+and visualizing MS2 spectra from the MassBank database.
 
 The program allows users to search MassBank records, load spectra from the
 official MassBank data archive, extract peak lists, optionally assign fragment
-formulas, and export the results into standardized .dat files.
+formulas, and export the results into standardized `.dat` files.
 
-The tool was designed to simplify the preparation of MS/MS spectra for further
-analysis and computational workflows.
+In addition, the toolkit provides interactive spectrum visualization directly
+within JupyterLab, allowing users to explore fragmentation patterns and inspect
+spectral peaks dynamically.
+
+The tool was designed to simplify the preparation and exploration of MS/MS
+spectra for further analysis and computational workflows.
 
 
 Main Features
 -------------
 - Search MassBank MS2 records by compound name
 - Load MassBank records from the MassBank data archive (local or GitHub)
-- Extract peak information from the PK$PEAK section
-- Assign fragment formulas using PK$ANNOTATION
-- Apply a user-defined ppm tolerance for formula matching
-- Export spectra as .dat files
+- Extract peak information from the `PK$PEAK` section
+- Assign fragment formulas using `PK$ANNOTATION`
+- Apply a ppm tolerance for formula matching
+- Export spectra as `.dat` files
 - Automatically generate a logbook (README) describing the exported spectra
-
+- Interactive visualization of mass spectra
+- Dynamic peak inspection with display of *m/z* and relative intensity
+- Customizable spectrum filtering and plotting options
 
 Requirements
 ------------
 -> Python 3.8 or higher
 
 -> Required Python packages:
+
+-> numpy
 
 -> IPython
 
@@ -47,6 +55,8 @@ Requirements
 
 -> matplotlib
 
+-> ploty
+
 -> ipympl
 
 -> mplcursors
@@ -55,20 +65,28 @@ Requirements
 
 
 
-Installation
+Installation (Different options)
 ------------
-Clone the repository:
+A) Clone the repository:
 
-git clone https://github.com/USERNAME/massbank-ms2-extraction-toolkit.git
+>> git clone https://github.com/USERNAME/massbank-ms2-extraction-toolkit.git
 
-Move into the project folder:
+B) Move into the project folder:
 
-cd massbank-ms2-extraction-toolkit
+>> cd massbank-ms2-extraction-toolkit
 
-Install dependencies if needed:
+C) Install dependencies if needed:
 
-pip install pandas ipywidgets
+>> pip install pandas [package]
 
+D) With conda
+
+>> conda install [package]
+
+E) Using environment for conda from ammos-env.yml
+
+conda env create -f ammos.yml
+conda activate ammos-env
 
 Usage
 -----
@@ -144,7 +162,4 @@ MIT License
 Citation
 --------
 If you use this tool in academic work, please cite:
-
-Sergio Pérez Tabero
-MassBank MS2 Spectrum Extraction Toolkit
-Universidad Autónoma de Madrid
+FrustratedAlchemist20. (2026). FrustratedAlchemist20/AMMOS_JL_Toolkit: AMMOS JL Toolkit v1.0 (v1.0). Zenodo. https://doi.org/10.5281/zenodo.18882841
