@@ -15,7 +15,7 @@ This project provides a Python/Jupyter-based toolkit for retrieving, processing,
 and visualizing MS2 spectra from the MassBank database.
 
 The program allows users to search MassBank records, load spectra from the
-official MassBank data archive, extract peak lists, optionally assign fragment
+official MassBank data archive [![MassBank Spectra](https://img.shields.io/badge/MS%20Data-MassBank-important)](https://massbank.eu/MassBank/), extract peak lists, optionally assign fragment
 formulas, and export the results into standardized `.dat` files.
 
 In addition, the toolkit provides interactive spectrum visualization directly
