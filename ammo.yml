@@ -1,0 +1,19 @@
+name: ammos-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - plotly
+  - ipywidgets
+  - ipympl
+  - requests
+  - pip
+
+  - pip:
+      - mplcursors
