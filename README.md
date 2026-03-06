@@ -69,19 +69,19 @@ Installation (Different options)
 ------------
 A) Clone the repository:
 
->> git clone https://github.com/USERNAME/massbank-ms2-extraction-toolkit.git
+$ git clone [https://github.com/USERNAME/massbank-ms2-extraction-toolkit.git](https://github.com/FrustratedAlchemist20/AMMOS_JL_Toolkit.git)
 
 B) Move into the project folder:
 
->> cd massbank-ms2-extraction-toolkit
+$ cd AMMOS_JL_Toolkit
 
 C) Install dependencies if needed:
 
->> pip install pandas [package]
+$ pip install pandas [package]
 
 D) With conda
 
->> conda install [package]
+$ conda install [package]
 
 E) Using environment for conda from ammos-env.yml
 
