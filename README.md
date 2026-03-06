@@ -92,7 +92,7 @@ Usage
 -----
 1. Launch Jupyter Notebook or Jupyter Lab.
 
-2. Open the notebook `AMMOS_JL_Toolkit.git`.
+2. Open the notebook `AMMOS.ipynb`.
 
 3. In the interface:
 
