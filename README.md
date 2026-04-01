@@ -6,8 +6,7 @@ AMMOS: Automated Massbank MS2 toolkit to Obtain Spectras
 
 Author
 ------
-Sergio Pérez Tabero
-Universidad Autónoma de Madrid (UAM)
+Sergio Pérez Tabero | tabero.oficial@gmail.com | Universidad Autónoma de Madrid (UAM)
 
 Description
 -----------
